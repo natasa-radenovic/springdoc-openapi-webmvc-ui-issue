@@ -39,10 +39,10 @@ generates a request that returns a 415. These are the combinations and their res
 
 The issue seems to stem from the differences between version 2.4.0 and 2.3.0 of `springdoc-openapi-starter-webmvc-ui`.
 
-To reproduce the issue, start the Spring boot project inside the v2.3.0 module with `mvn clean spring-boot:run`.
+To reproduce the issue, start the Spring boot project inside the `v2.3.0` module with `mvn clean spring-boot:run`.
 Open the generated Swagger page http://localhost:8080/swagger-ui/index.html#.
 There, the Swagger page is generated as expected if the input is annotated with `@ModelAttribute`.
 
-Then start the Spring boot project inside the v2.4.0 module with `mvn clean spring-boot:run`.
+Then start the Spring boot project inside the `v2.4.0` module with `mvn clean spring-boot:run`.
 Open the generated Swagger page http://localhost:8080/swagger-ui/index.html#.
 There, the Swagger page isn't generated as expected if the input is annotated with `@ModelAttribute` or `@RequestBody`.
