@@ -1,5 +1,9 @@
 # Springdoc-openapi-webmvc-ui-issue
 
+Properties:
+- Java version: 21
+- Parent: spring-boot-starter-parent 3.2.4
+
 This project contains 2 modules:
 - v2.4.0
 - v2.3.0

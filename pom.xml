@@ -5,6 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.4</version>
+        <relativePath/>
+    </parent>
+
     <groupId>my.sample.project</groupId>
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
